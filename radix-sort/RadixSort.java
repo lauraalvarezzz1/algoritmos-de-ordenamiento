@@ -29,16 +29,16 @@ public class RadixSort
     public static void main(String[] args) 
     {
         Scanner scan = new Scanner( System.in );        
-        System.out.println("Radix Sort Test\n");
+        System.out.println("Prueba:\n");
         int n, i;
-        System.out.println("Enter number of integer elements");
+        System.out.println("Ingresa un numero de elementos enteros");
         n = scan.nextInt();
         int arr[] = new int[ n ];
-        System.out.println("\nEnter "+ n +" integer elements");
+        System.out.println("\nIngresó "+ n +" numeros enteros");
         for (i = 0; i < n; i++)
             arr[i] = scan.nextInt();
         sort(arr);
-        System.out.println("\nElements after sorting ");        
+        System.out.println("\nSalida: elementos depues de aplicar RadixSort");        
         for (i = 0; i < n; i++)
             System.out.print(arr[i]+" ");            
         System.out.println();                     

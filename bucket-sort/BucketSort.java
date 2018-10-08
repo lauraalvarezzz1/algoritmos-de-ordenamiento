@@ -26,8 +26,8 @@ public class BucketSort{
       int maxVal=5;
       int [] data= {5,3,0,2,4,1,0,5,2,3,1,4}; 
  
-      System.out.println("Before: " + Arrays.toString(data));
+      System.out.println("Antes: " + Arrays.toString(data));
       sort(data,maxVal);
-      System.out.println("After:  " + Arrays.toString(data));
+      System.out.println("Despues:  " + Arrays.toString(data));
    }
 }
